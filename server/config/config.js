@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === 'dev') {
 process.env.URLBD = url;
 
 // VENCIMIENTO TOKEN => 60 seg * 60 mnt * 24 h * 30 d
-process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+process.env.CADUCIDAD_TOKEN = '48h';
 
 // SEED de autenticación
 process.env.SEED = process.env.SEED || 'my-own-seed-development';
